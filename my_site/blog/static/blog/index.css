@@ -1,0 +1,35 @@
+.post {
+  display: flex;
+  gap: 20px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  align-items: center;
+  color: #f0f0f0;
+}
+
+.post img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-content h2 {
+  margin-top: 0;
+  color: #ffa726;
+}
+
+body {
+  background-color: #121212;
+  font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
