@@ -1,19 +1,20 @@
 .post {
   
-  text-align: center;       
-  display: flex;
-  flex-direction: row;
-  align-items: center;          
-  padding: 20px;
-  color: #f0f0f0;
+    text-align: center;       
+    display: flex;
+    flex-direction: row;
+    align-items: center;          
+    padding: 20px;
+    color: #f0f0f0;
 }
 
 .post img {
-    position: fixed;
-    top: 0;
-    left:  0;
+    display: block;
+    position: relative;
+    left: 0;
     object-fit: cover;
-    height: 100vh;
+    margin-top: 80px; 
+    height: calc(100vh - 80px);
     width: 550px;
 }
 

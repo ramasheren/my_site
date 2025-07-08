@@ -1,0 +1,8 @@
+body {
+  background-color: #121212;
+  font-family: sans-serif;
+}
+.content {
+  margin-top: 80px; /* or however tall your header is */
+  padding: 20px;
+}

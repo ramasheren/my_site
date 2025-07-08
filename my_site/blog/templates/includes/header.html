@@ -1,0 +1,32 @@
+  <header>
+    <div class="logo">MyFavFood</div>
+    <nav>
+      <a href="{% url 'index' %}">Home</a>
+      {% for post in posts %}
+        <a href="{% url 'post_detail' post.title %}">{{ post.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <style>
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+</style>
